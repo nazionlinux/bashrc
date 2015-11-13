@@ -1,0 +1,6 @@
+alias ls='ls --color=auto'
+alias dir='ls --color=auto'
+alias cd..='cd ..'
+alias grep='grep --color=auto'
+export GREP_COLOR='0;31'
+PS1='\[\e[1;32m\]\h\[\e[m\]@\[\e[1;31m\]\u\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[0;33m\]\$\[\e[m\] '
