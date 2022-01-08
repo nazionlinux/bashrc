@@ -32,8 +32,10 @@ xud() { xbps-install -S; }
 xug() { xbps-install -Su; }
 ## Xbps Up Grade Yes aggiorna il database dei pacchetti e aggiorna la distrbuzione senza chiedere conferma
 xugy() { xbps-install -Syu; }
-## Xbps Install Package installa un sigolo pacchetto
-xip() { xbps-install $1; }
+## Xbps Install Package installa molteplici pacchetti
+xip() { xbps-install -S $*; }
+## Xbps Install Package installa singolo pacchetto
+#xip() { xbps-install -S $1; }
 ## Xbps Update Package aggiorna un sigolo pacchetto
 xup() { xbps-install -u $1; }
 ## Xbps Search Package cerca pacchetto
