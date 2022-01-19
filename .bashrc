@@ -36,7 +36,7 @@ xugy() { xbps-install -Syu; }
 xip() { xbps-install -S $*; }
 ## Xbps Install Package installa singolo pacchetto
 #xip() { xbps-install -S $1; }
-## Xbps Update Package aggiorna un sigolo pacchetto
+## Xbps Update Package aggiorna un singolo pacchetto
 xup() { xbps-install -u $1; }
 ## Xbps Search Package cerca pacchetto
 xsp() { xbps-query -Rs $1; }
