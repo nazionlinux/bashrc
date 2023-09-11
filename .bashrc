@@ -28,15 +28,15 @@ man "$@"
 ##----------------
 ## Xbps Up Date aggiorna il database
 xud() { xbps-install -S; }
-## Xbps Up Grade aggiorna il database dei pacchetti e aggiorna la distrbuzione equivale a dist-upgrade di Debian
+## Xbps Up Grade aggiorna il database dei pacchetti e aggiorna la distribuzione equivale a dist-upgrade di Debian
 xug() { xbps-install -Su; }
-## Xbps Up Grade Yes aggiorna il database dei pacchetti e aggiorna la distrbuzione senza chiedere conferma
+## Xbps Up Grade Yes aggiorna il database dei pacchetti e aggiorna la distribuzione senza chiedere conferma
 xugy() { xbps-install -Syu; }
 ## Xbps Install Package installa molteplici pacchetti
 xip() { xbps-install -S $*; }
 ## Xbps Install Package installa singolo pacchetto
 #xip() { xbps-install -S $1; }
-## Xbps Update Package aggiorna un sigolo pacchetto
+## Xbps Update Package aggiorna un singolo pacchetto
 xup() { xbps-install -u $1; }
 ## Xbps Search Package cerca pacchetto
 xsp() { xbps-query -Rs $1; }
