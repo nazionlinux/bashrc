@@ -7,7 +7,7 @@ alias ls='ls --color=auto'
 alias dir='ls --color=auto'
 alias cd..='cd ..'
 alias grep='grep --color=auto'
-export GREP_COLOR='0;31'
+export GREP_COLORS='mt=0;31'
 #PS1='[\u@\h \W]\$ '
 PS1='\[\e[1;32m\]\h\[\e[m\]@\[\e[1;31m\]\u\[\e[m\] \[\e[1;93m\]\w\[\e[m\] \[\e[0;34m\]\$\[\e[m\] '
 
@@ -36,7 +36,7 @@ xugy() { xbps-install -Syu; }
 xip() { xbps-install -S $*; }
 ## Xbps Install Package installa singolo pacchetto
 #xip() { xbps-install -S $1; }
-## Xbps Update Package aggiorna un singolo pacchetto
+## Xbps Update Package aggiorna un sigolo pacchetto
 xup() { xbps-install -u $1; }
 ## Xbps Search Package cerca pacchetto
 xsp() { xbps-query -Rs $1; }
