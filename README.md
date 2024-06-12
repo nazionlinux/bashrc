@@ -1,5 +1,5 @@
 # bashrc
 
 * Homepage: [http://www.nazionlinux.com](http://www.nazionlinux.com)
-* Source: [https://github.com/nazionlinux/html5-template](https://github.com/nazionlinux/html5-template)
-* Twitter: [@nazionlinux](https://twitter.com/nazionlinux)
+* Source: [https://github.com/nazionlinux/bashrc](https://github.com/nazionlinux/bashrc)
+* Site: [@nazionlinux](https://www.nazionlinux.com)
